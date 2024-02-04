@@ -6,7 +6,7 @@ import 'package:native_feature_use/widgets/places_list.dart';
 
 class PlaceScreen extends ConsumerWidget {
   const PlaceScreen({super.key});
-//
+
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final places = ref.watch(userPlacesProvider);
